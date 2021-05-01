@@ -22,7 +22,7 @@ Para cualquier duda o información puede contactar con la creadora de la aplicac
 ---
 
 Esta aplicación fue creada con Microsoft Visual Studio (MVS), agregando las extensiones de GitHub y Microsoft Visual Studio Installer
-Puedes ver la información relacionada con el proceso en el siguiente link: 
+Puedes ver la información relacionada con el proceso en el siguiente link: https://youtu.be/FZ_7jYx1Esw
 
 ## Autor/es
 ---
