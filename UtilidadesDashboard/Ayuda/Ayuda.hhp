@@ -1,0 +1,15 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda.chm
+Contents file=Table of Contents.hhc
+Default Window=Ayuda
+Display compile progress=No
+Index file=Index.hhk
+Language=0x409 English (United States)
+
+[WINDOWS]
+Ayuda="Ayuda Dashboard","Table of Contents.hhc","Index.hhk","Getting Started.html","Getting Started.html",,,,,0x22520,,0x306e,,,,,,,,0
+
+
+[INFOTYPES]
+
