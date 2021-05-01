@@ -22,7 +22,8 @@ namespace DAL_Dashboard
             StreamReader archLeer = null;
             try
             {
-                archLeer = new StreamReader("..\\..\\..\\DAL_Dashboard\\1_datos_comerciales.csv");
+                //archLeer = new StreamReader("..\\..\\..\\DAL_Dashboard\\1_datos_comerciales.csv");
+                archLeer = new StreamReader("1_datos_comerciales.csv");
                 String lineaTitulos = archLeer.ReadLine();
                 String lineaDatos = archLeer.ReadLine();
                 String[] contenidoTemp = null;
@@ -70,7 +71,8 @@ namespace DAL_Dashboard
             Facturacion datos = null;
             StreamReader archivoFact = null;
             try { 
-            archivoFact = new StreamReader("..\\..\\..\\DAL_Dashboard\\2_facturacion_comercial.csv");
+            //archivoFact = new StreamReader("..\\..\\..\\DAL_Dashboard\\2_facturacion_comercial.csv");
+            archivoFact = new StreamReader("2_facturacion_comercial.csv");
             String lineaTitulos = archivoFact.ReadLine();
             String lineaDatos = archivoFact.ReadLine();
             
