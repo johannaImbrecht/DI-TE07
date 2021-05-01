@@ -13,11 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{B7C422F6-61A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UTILIDADES", "UTILIDADES", "{82CD7762-4BA5-4186-89F5-F3F1AFBC122B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilidadesDashboard", "UtilidadesDashboard\UtilidadesDashboard.csproj", "{EB62B4CC-AFFB-4CCF-A796-04EAA894D41D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilidadesDashboard", "UtilidadesDashboard\UtilidadesDashboard.csproj", "{EB62B4CC-AFFB-4CCF-A796-04EAA894D41D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Dashboard", "BLL_Dashboard\BLL_Dashboard.csproj", "{9B9BF59D-07CB-4611-82F3-F06D06411CFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL_Dashboard", "BLL_Dashboard\BLL_Dashboard.csproj", "{9B9BF59D-07CB-4611-82F3-F06D06411CFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Dashboard", "DAL_Dashboard\DAL_Dashboard.csproj", "{C277B8F7-47BF-43CA-BA29-DDF7253245DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL_Dashboard", "DAL_Dashboard\DAL_Dashboard.csproj", "{C277B8F7-47BF-43CA-BA29-DDF7253245DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuraciones", "Configuraciones", "{1D452EDE-6C97-42C4-A8D6-8245D549B043}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorApp", "InstaladorApp\InstaladorApp\InstaladorApp.vdproj", "{68053226-118B-4B89-B2E2-60E1C295F0EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,8 @@ Global
 		{C277B8F7-47BF-43CA-BA29-DDF7253245DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C277B8F7-47BF-43CA-BA29-DDF7253245DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C277B8F7-47BF-43CA-BA29-DDF7253245DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68053226-118B-4B89-B2E2-60E1C295F0EC}.Debug|Any CPU.ActiveCfg = Debug
+		{68053226-118B-4B89-B2E2-60E1C295F0EC}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{EB62B4CC-AFFB-4CCF-A796-04EAA894D41D} = {82CD7762-4BA5-4186-89F5-F3F1AFBC122B}
 		{9B9BF59D-07CB-4611-82F3-F06D06411CFA} = {DAFB1A27-40C5-4480-BCA3-41FC6756A9EC}
 		{C277B8F7-47BF-43CA-BA29-DDF7253245DF} = {B7C422F6-61AE-4F91-8658-2F56FAADF468}
+		{68053226-118B-4B89-B2E2-60E1C295F0EC} = {1D452EDE-6C97-42C4-A8D6-8245D549B043}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7029595-9CAA-4F5F-9F26-12910FAE0398}
